@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(169, 234, 241);
+}
+h1{
+    text-decoration: underline
+}
+#banner,banner{
+    background-color: blueviolet;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#banner p,banner p{
+    margin: 0;
+    font-size: larger;
+    font-family: cursive;
+}
+#nav,nav,#nav2{
+    background-color: rgb(211, 202, 219);
+    padding: 10px;
+    text-align: center;
+    
+}
+#nav a,nav a,#nav2 a{
+    text-decoration: none;
+    font-size: larger;
+    margin-right:10px ;
+}
+#nav a,#nav2 a:hover{
+    background-color: aqua;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: aqua;
+    padding: 10px;
+}
+#footer,footer{
+    background-color: blueviolet;
+    min-height: 150px;
+    text-align: center;
+
+}
+#footer a,footer a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+#main,main{
+    width:80%;
+    margin: 0 auto;
+}
+article{
+    margin-bottom: 5px;
+}
+#inquiers{
+    text-align: center;
+    color: brown;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.differntlookingtext{
+    font-size: larger;
+    font-family: cursive;
+    font-style:bold;
+
+}
+.dcolor{
+    color: brown;
+    font-weight: bold;
+}
