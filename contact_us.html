@@ -58,7 +58,7 @@
 
         
     <div id="inquires">
-         <form action="confirmation.html">
+         <form action="confirmation.html" id="contactform">
         <label for="Fullname">name: </label><br>
         <input required type="text" id="Fullname" name="Fullname"/>
         <br> <br>
@@ -72,12 +72,15 @@
         <label>state your inquiry</label><br>
         <textarea cols="20" rows="1.5" maxlength="200" id="inquiry" name="inquiry"></textarea>
         <input type="submit">
+        <button type="button" onclick="ClearForm()">clear</button>
     </form>
     </div>
     <footer>
         <a href="https://ebay.com"target="_blank">ebay</a>
             <br><a href="https://amazon.com">amazon</a>
     </footer>
+    <script src="java/jquery.min.js"></script>
+<script src="java/site.js"></script>
 
 </body>
 </html>
