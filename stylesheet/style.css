@@ -45,10 +45,7 @@ nav a:hover{
     color: aliceblue;
 
 }
-#main,main{
-    width:80%;
-    margin: 0 auto;
-}
+
 article{
     margin-bottom: 5px;
 }
